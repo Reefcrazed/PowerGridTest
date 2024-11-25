@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.form-input {
+    @apply p-0 m-0 rounded text-gray-600 border border-gray-300 pl-1 pr-2 bg-white w-40;
+
+}
+
+.form-input-sm {
+    @apply p-0 m-0 rounded text-gray-600 border border-gray-300 pl-1 pr-2 bg-white w-20;
+}
+
+.form-label-left {
+    @apply block text-gray-600 text-sm m-0 p-0 justify-self-start m-1 text-nowrap;
+}
+
+.form-label-right {
+    @apply block text-gray-600 text-sm m-0 p-0 justify-self-end m-1 text-nowrap;
+}
